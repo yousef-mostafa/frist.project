@@ -1,4 +1,5 @@
 //resize window
+$(function(){
 $('.header').height($(window).height());
 $(window).resize(function(){
    });
@@ -23,3 +24,4 @@ $('.navbar li a').click(function(){
     $(this).addClass('active').siblings().removeClass('active');
     
   });
+});
