@@ -1,0 +1,133 @@
+/* start global */
+*{box-sizing: border-box}
+
+.contener{
+    
+    width: 1000px;
+    margin: auto;
+}
+
+hr{ 
+    color: #95b962;
+    border: 1px solid #95b962;
+}
+
+/* end global */
+
+/* start header */
+.header{
+    background-image:url(../../img/2.jpg);
+    background-size: ;
+    height:625px;
+}
+.navbar{ 
+   padding-top: ;
+   height: 0;
+   color:white;
+    font-size: 20px 
+}
+.navbar p{
+    float: left;
+    width: 35%;
+    padding-right: 15px;
+    font-size: 30px;
+    margin-top: 23px 
+}
+.navbar p span{color: #90ff00}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    width:65%;
+    padding: 0;
+    margin: 0;   
+}
+.navbar ul li{
+    float: left;
+    padding-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 31px 15px 7px 15px; 
+}
+.navbar ul li a:hover{
+    background-color: #a1ca6c;
+    border: 1px solid transparent #a1ca6c;
+    border-radius: 5px
+}
+
+.navbar ul li a.active{
+    background-color: #a1ca6c;
+    border: 1px solid transparent #a1ca6c;
+    border-radius: 5px
+}
+.head{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.head h2{
+    font-size: 50px;
+    font-weight: normal;
+    margin: 20px 10px 20px 10px;
+}
+.head p{font-size: 14px;}
+
+.gallary h3{
+    float: left;
+    width: 65%;
+    margin-top: 15px;
+    padding-top: 9px;
+    color: white;
+}
+
+.gallary .buttons{
+    float: left;
+    width: 33%;
+    margin-top: 15px;
+}
+
+.gallary .buttons button{
+    border: 0;
+    background: none;
+    color: white;
+    padding: 9px;
+    margin-right: 35px;
+}
+.gallary .buttons button:last-child{margin-right: 0px;}
+.gallary .buttons .active,
+.gallary .buttons button:hover{
+    background-color: #f0b21f;
+    border: 2px solid transparent #f0b21f;
+    border-radius: 5px;
+}
+
+.gallary .photo div{
+    width: 220px;
+    height: 120px;
+    margin: 20px 30px 10px 0;
+    float: left;
+    position: relative;
+    
+    
+}
+.gallary .photo div img{
+    height: inherit;
+    width: inherit;
+}
+.gallary .photo div .overlay{
+    position: absolute;
+    top: 0;bottom: 0;right: 0;left: 0;
+    width: inherit; height: inherit;
+    margin: 0;
+    background-color: rgb(102, 102, 102,.5);
+    display:none
+}
+
+.gallary .photo div:hover .overlay{display:block;}
+/* end header */
+/*my framwork*/
+
+.fixclear{clear: both;}

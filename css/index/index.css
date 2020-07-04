@@ -1,0 +1,123 @@
+/* start global */
+
+*{box-sizing: border-box}
+
+.contener{
+    
+    width: 1000px;
+    margin: auto;
+}
+
+/* end global */
+
+/* start header */
+.header{
+    background-image:url(../../img/book.jpg);
+    background-size: cover;
+    height:625px;
+}
+.navbar{ 
+   padding-top: ;
+   height: 0;
+   color:white;
+    font-size: 20px
+    
+}
+.navbar p{
+    float: left;
+    width: 35%;
+    padding-right: 15px;
+    font-size: 30px;
+    margin-top: 23px
+    
+}
+.navbar p span{color: #74c7d5}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    width:65%;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.navbar ul li{
+    float: left;
+    padding-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 31px 15px 7px 15px;
+    
+}
+.navbar ul li a:hover{
+    background-color: #74c7d5;
+    border: 1px solid transparent #74c7d5;
+    border-radius: 5px
+}
+
+.navbar ul li a.active{
+    background-color: #74c7d5;
+    border: 1px solid transparent #74c7d5;
+    border-radius: 5px
+}
+/* slider */
+
+.slider div{
+    width: 300px !important;
+    height: 90px !important;
+    margin: 0px  0 0 555px;
+    background-color: whitesmoke;
+    opacity: .7;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+    color: #74c7d5;
+    
+}
+
+.slider p{
+    float:left;
+    width: 50%;
+    font-size: 25px;
+    margin:15px -5px 15px 2px;
+}
+
+.slider div span.a {
+    text-align: right;
+    margin-left:29px;
+}
+.slider div span.b {
+    float:left;
+    width: 50%;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left:-20px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.bx-wrapper{
+    background: none;
+    box-shadow: none;
+    border: 0;
+    position:absolute;
+    top: 50%;
+}
+
+.bx-wrapper .bx-pager{top:270px}
+.bx-wrapper .bx-pager.bx-default-pager a{background: #b2aba3;}
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:hover{background:#74c7d5}
+
+/* slider setting */
+
+/* end header */
+
+/* start my framwork */
+
+.fixclear{clear: both}
+/* start my framwork */

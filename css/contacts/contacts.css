@@ -1,0 +1,139 @@
+/* start global */
+*{box-sizing: border-box}
+
+.contener{
+    
+    width: 1000px;
+    margin: auto;
+}
+
+/* end global */
+
+/* start header */
+.header{
+    background-image:url(../../img/3.jpg);
+    background-size: cover;
+    height:625px;
+}
+.navbar{ 
+   padding-top: ;
+   height: 0;
+   color:white;
+    font-size: 20px 
+}
+.navbar p{
+    float: left;
+    width: 35%;
+    padding-right: 15px;
+    font-size: 30px;
+    margin-top: 23px 
+}
+.navbar p span{color: #04ffd8}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    width:65%;
+    padding: 0;
+    margin: 0;   
+}
+.navbar ul li{
+    float: left;
+    padding-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 31px 15px 7px 15px; 
+}
+.navbar ul li a:hover{
+    background-color: #82c8bd;
+    border: 1px solid transparent #82c8bd;
+    border-radius: 5px
+}
+
+.navbar ul li a.active{
+    background-color: #74c7d5;
+    border: 1px solid transparent #82c8bd;
+    border-radius: 5px
+}
+.contacts{margin-bottom: 40px}
+.contacts h2{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 50px;
+    margin:30px 0 15px 0;
+}
+.contacts p{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.info{
+    float: left;
+    width: 50%;
+    color: white;
+}
+.info h2{font-weight: normal;margin-top: 15px}
+.info .addr{margin-bottom: 100px}
+.info .a{color:#bfe3df }
+.info a{color: white;}
+
+.form{
+    float: left;
+    width: 50%
+}
+.form input{
+    border:1px solid rgb(85, 85, 85,.3) ;
+    border-radius: 4px;
+    background-color: rgb(85, 85, 85,.3);
+    margin: 15px 0px 15px 15px;
+}
+.form input:focus{background-color: #f6f6f6;border:1px solid #f6f6f6;}
+.form textarea:focus{background-color: #f6f6f6;border:1px solid #f6f6f6;}
+.form textarea{
+    border:1px solid rgb(85, 85, 85,.3) ;
+    border-radius: 4px;
+    background-color: rgb(85, 85, 85,.3);
+    margin: 15px 0px 15px 15px;
+}
+form button{
+    width:40%;
+    height: 6%;
+    color: white;
+    text-align: center;
+    background-color: #df5c64;
+    border: 2px solid #df5c64;
+    border-radius: 5px;
+    margin-left: 25%;
+    font-weight: bolder;
+    font-size: 25px
+}
+form button:hover{box-shadow: 0px 8px 16px 0px #1f2e2e;}
+/* end header */
+
+/* start footer*/
+.footer{
+    width: 100%;
+    height: 9.5%;
+    background-color:#68a097 
+}
+.footer i{
+    text-align: center;
+    color:#82c8bd;
+    float: left;
+    margin-top:7px;
+    padding-right: 12px;
+    font-size:xxx-large
+}
+.fa-facebook-official{margin-left: 45%;}
+.footer i:hover{color: white;}
+
+/* end footer*/
+
+/*my framwork*/
+
+.fixclear{clear: both;}
